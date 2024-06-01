@@ -7,10 +7,10 @@ import ProgressTracker from "./components/ProgressTracker";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <SVGComponent />
-        <p className="font-bold underline text-3xl">Muscle Tracker App</p>
+      <header>
+        <p className="font-bold text-2xl uppercase m-4">Muscle Tracker App</p>
       </header>
+      <SVGComponent />
       <ProgressTracker />
     </div>
   );
